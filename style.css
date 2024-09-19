@@ -1,0 +1,74 @@
+@font-face {
+    font-family:"robo";
+    src: url(./Robotica.ttf);
+}
+@font-face {
+    font-family:"gilroy" ;
+    src: url(./gilroy.ttf);
+}
+@font-face {
+    font-family:"robotech";
+    src: url(./robotech.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 20vw;
+}
+h1{
+    color: white;
+    font-family: 'robo'; 
+}
+#name{
+    color: rgb(234, 60, 123);
+    font-size: 45px;
+}
+#va{
+    color: rgb(100, 187, 249);
+    font-size: 45px;
+}
+
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn img{
+    width: 20px;
+
+}
+#btn{
+    width: 30%;
+    background:linear-gradient(to right,rgb(237, 69, 119),rgb(46, 222, 253));
+    padding:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: none;
+    outline: none;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'robotech'; 
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    background:linear-gradient(to right,rgb(46, 222, 253),rgb(237, 69, 119));
+    letter-spacing: 2px;
+
+}
